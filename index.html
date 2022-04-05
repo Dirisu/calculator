@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card shadow font-monospace mx-auto border-dark" style="max-width: 300px;">
+            <h5 class="text-end my-3 px-2">Calculator</h5>
+            <div class="display text-nowrap table-responsive text-end p-1 border border-dark fs-1" style="height: 70px;" >
+                0
+            </div>
+
+            <div class="d-flex">
+                <button class="btn btn-lg border bg-danger rounded-0 w-100 clear">CE</button>
+                <button class="btn btn-lg clearup border rounded-0 w-100">(</button>
+                <button class="btn btn-lg clearup border rounded-0 w-100">)</button>
+                <button class="btn btn-lg border bg-secondary rounded-0 w-100 del">&larr; </button>
+            </div>
+            <div class="d-flex">
+                <button class="btn btn-lg clearup border rounded-0 w-100">9</button>
+                <button class="btn btn-lg clearup border rounded-0 w-100">8</button>
+                <button class="btn btn-lg clearup border rounded-0 w-100">7</button>
+                <button class="btn btn-lg clearup border rounded-0 w-100">/ </button>
+            </div>
+            <div class="d-flex">
+                <button class="btn btn-lg clearup border rounded-0 w-100">6</button>
+                <button class="btn btn-lg clearup border rounded-0 w-100">5</button>
+                <button class="btn btn-lg clearup border rounded-0 w-100">4</button>
+                <button class="btn btn-lg clearup border rounded-0 w-100">*</button>
+            </div>
+            <div class="d-flex">
+                <button class="btn btn-lg clearup border rounded-0 w-100">3</button>
+                <button class="btn btn-lg clearup border rounded-0 w-100">2</button>
+                <button class="btn btn-lg clearup border rounded-0 w-100">1</button>
+                <button class="btn btn-lg clearup border rounded-0 w-100">-</button>
+            </div>
+            <div class="d-flex">
+                <button class="btn btn-lg border rounded-0 w-100" id="dot">.</button>
+                <button class="btn btn-lg clearup border rounded-0 w-100">0</button>
+                <button class="btn btn-lg clearup border rounded-0 w-100">+</button>
+                <button class="btn btn-lg border rounded-0 w-100 pi">&pi;</button>
+                
+            </div>
+
+            <div class="d-flex">
+                <button class="btn btn-lg border rounded-0 w-100 sqrt">&Sqrt;</button>
+                <button class="btn btn-lg clearup border rounded-0 w-100 square">r</button>
+                <button class="btn btn-lg clearup border rounded-0 w-100">%</button>
+                <button class="btn btn-lg border bg-success rounded-0 w-100 equal">=</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
